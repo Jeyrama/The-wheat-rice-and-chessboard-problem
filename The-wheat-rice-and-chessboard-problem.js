@@ -24,3 +24,7 @@ a trick converting the number might also work: impress me!
 
 
 // Solution
+
+function squaresNeeded(grains){
+  return Math.ceil(Math.log2(grains+1))
+}
