@@ -30,3 +30,14 @@ function squaresNeeded(grains){
 }
 
 // or
+
+function squaresNeeded(grains){
+  if(grains <= 2){ return grains;}
+  if(grains > 2) {
+    let i = 0;
+      while(2**i <= grains){
+        i++;
+      }
+    return i;
+  }  
+}
