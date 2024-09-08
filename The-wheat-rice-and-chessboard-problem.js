@@ -28,3 +28,5 @@ a trick converting the number might also work: impress me!
 function squaresNeeded(grains){
   return Math.ceil(Math.log2(grains+1))
 }
+
+// or
