@@ -21,3 +21,6 @@ extra cookie for not using a loop to compute square-by-square (at least not dire
 and instead trying a smarter approach [hint: some peculiar operator]; 
 a trick converting the number might also work: impress me!
 */
+
+
+// Solution
